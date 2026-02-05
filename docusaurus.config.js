@@ -96,7 +96,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/CS', label: 'CS', position: 'left'},
+          //{to: '/CS', label: 'CS', position: 'left'},
           
         ],
       },
