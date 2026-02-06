@@ -11,8 +11,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CS Docs',
-  tagline: 'Documentação CS Suporte',
-  favicon: 'img/favicon.ico',
+  tagline: 'Documentação interna CS Suporte',
+  favicon: 'img/favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -78,7 +78,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'https://cbmstg.blob.core.windows.net/chatbots/cb1000019/Chat-Suri.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },

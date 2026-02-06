@@ -5,7 +5,9 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    //Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    //caso queria usar um link externo para a imagem, basta usar a tag img normal, como no exemplo abaixo:
+    Svg: () => <img src="https://cbmstg.blob.core.windows.net/chatbots/cb1000019/Chat-Suri.png" alt="Suri Logo" className={styles.featureSvg} />,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -15,7 +17,8 @@ const FeatureList = [
   },
   {
     title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    //Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: () => <img src="https://cdn.prod.website-files.com/5f99af040fc8a6ae400fc29d/67571f651d55363942606f5f_suri_shop_logo_vertical.png" alt="Suri Logo" className={styles.featureSvg} />,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -25,7 +28,8 @@ const FeatureList = [
   },
   {
     title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    //Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: () => <img src="https://cdn.prod.website-files.com/5f99af040fc8a6ae400fc29d/67800b9fcb997520711b2d75_img_assistant.jpg" alt="Suri Logo" className={styles.featureSvg} />,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
